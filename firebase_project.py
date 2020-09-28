@@ -16,9 +16,9 @@ def createAccount():
 
     else:
         name = input("Enter Your Name : ")
-        pin = int(input("Enter PIN no : "))
+        branch = input("Enter Branch name : ")
         opn_bal = int(input("Enter opening Amount : "))
-        data = {"name": name, "pin_no": pin, "balance": opn_bal}
+        data = {"name": name, "branch": branch, "balance": opn_bal}
         fire.put("Savings_Account",acno,data)
         print('\n')
         print("Congrats..!! Your Account is Created..!!\n")
