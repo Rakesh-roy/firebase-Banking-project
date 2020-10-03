@@ -1,5 +1,5 @@
 # firebase-Banking-project
-simple banking project using firebase DB
+simple banking project using firebase DB:
 
 -> open the link http://firebase.google.com/
 -> click get started.
